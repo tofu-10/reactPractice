@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.bgVid-box {
+  /* position: relative; */
+  overflow: hidden;
+}
+.bgVid-box video {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.homeMarvelLogo img {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 41vh;
+}
+
+.slogan {
+  position: absolute;
+  top: 53.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f9dd3c;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  /* letter-spacing: 1px; */
+  text-transform: uppercase;
+}
+
+.slogan h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+}
+
+.slogan h2 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.PlayNowBtn {
+  border: none;
+  box-shadow: 2px 6px 7px rgba(0, 0, 0, 0.563);
+  position: absolute;
+  background-color: #ffde37;
+  color: #12151d;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  width: 18.7vw;
+  height: 6.2vh;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  top: 68%;
+  left: 40.5%;
+}
+
+.platforms {
+  position: absolute;
+  top: 82.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.platform {
+  width: auto;
+  height: 4.3vh;
+  flex: 0 0 auto;
+}
+
+.WL {
+  width: auto;
+  height:3.2vh ;
+  flex: 0 0 auto;
+}
+
+.ps4{
+    height: 2.3vh;
+}
+
+.platform:before{
+    content: "|";
+  
+}

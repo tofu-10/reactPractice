@@ -1,0 +1,118 @@
+/* The diagonal cut corner effect */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.download-btn {
+  height: fit-content;
+  width: 18.5vw;
+  position: relative;
+  padding: 15px 41px;
+  background: #f9dd3c;
+  color: #111;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  clip-path: polygon(12px 0%, 100% 0%, 100% 100%, 0% 100%);
+  transition: all 0.2s;
+}
+
+.download-btn:hover {
+  background: #ff3b41;
+  box-shadow: 0 0 20px rgba(230, 36, 41, 0.5);
+}
+.download-btn::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 0;
+  width: 28px;
+  height: 100%;
+  background: #111;
+  clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+}
+
+.NavBar {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #111;
+  height: 53px;
+}
+
+#langWorldLogo {
+  height: 3.3vh;
+  margin-top: 4px;
+}
+
+.loginBox {
+  display: flex;
+  align-items: center;
+}
+
+.NavLeft {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.NavLeft a {
+  text-align: center;
+  color: #ccc;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    /* font-weight: bolder; */
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+  width: 100px;
+}
+
+.NavLeft a:hover {
+  color: #f9dd3c;
+}
+
+.NavRight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.NavRight a{
+     text-align: center;
+  color: #ccc;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    /* font-weight: bold; */
+  text-decoration: none;
+  font-size: 0.9rem;
+  /* letter-spacing: 1px; */
+  transition: color 0.2s;
+}
+
+.NavLeft a:before{
+    display: inline-block;
+    position: absolute;
+    background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/nav-line_bf543b8f.png);
+    background-size: 100% 100%;
+    content: "";
+    height: 1.4rem;
+    vertical-align: middle;
+    margin-left: -2%;
+    width: 0.3rem;
+}
+
+#navMarvelLogo {
+  height: 63px;
+  padding: 12px;
+}
+
+
