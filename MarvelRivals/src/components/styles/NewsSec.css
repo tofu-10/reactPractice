@@ -1,0 +1,194 @@
+.newsContainer {
+  background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/part-news-bg_ac16ec22.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 108vh;
+  position: absolute;
+  top: 103%;
+  z-index: 3;
+}
+
+/* ---- Top Flexed ---- */
+.newsFlexed {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  padding: 80px 80px 40px;
+  margin-top: 6%;
+  margin-left: 3%;
+}
+
+/* ---- Swiper ---- */
+.newsImage {
+  width: 540px;
+  height: 320px;
+  flex-shrink: 0;
+}
+
+.slideContent {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 320px;
+  text-decoration: none;
+}
+
+.slideContent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+}
+
+.slideDate  { color: #aaa; font-size: 0.75rem; margin-bottom: 4px; }
+.slideTitle { color: #fff; font-size: 0.95rem; font-weight: 600; }
+
+/* ---- Featured News Right ---- */
+.newsRight {
+  flex: 1;
+  max-width: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.newsLogoImg { 
+    height: 90%;
+    width: 90%;
+ }
+
+.featuredNews {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.featuredImg {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.featuredDate { color: #232121; font-size: 0.75rem; }
+
+.featuredTitle {
+  color: #0d0b0b;
+  font-size: 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+.featuredDesc { color: #1d1b1b; font-size: 0.85rem; line-height: 1.6; }
+
+/* ---- Latest Section ---- */
+.latestSection {
+  padding: 0 60px;
+  width: 80%;
+  margin: auto;
+}
+
+.latestNewsTab {
+    position: relative;
+    overflow: hidden;
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+}
+.latestNewsTab::before {
+  content: "";
+  position: absolute;
+  top: 40%; left: 0; 
+  width: 90vw; height: 55%;
+  background-image: url('../../assets/images/background/txt-line.png');
+  background-size: cover;
+  filter: invert(); /* Apply filters here */
+  filter: brightness(60%);
+  z-index: 2;
+}
+
+
+.tab {
+  padding: 10px ;
+  margin-left: 3%;
+  border: none;
+  color: #232323;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: all 0.2s;
+
+}
+
+.tab.active{
+    
+    border-bottom: 2.5px solid rgba(25, 23, 23, 0.812);
+
+  color: #212020;
+
+}
+.tab:hover{
+    cursor: none;
+}
+
+/* ---- Latest Cards ---- */
+.latestNewsSwiper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 30px;
+}
+
+.latestCard {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.2s;
+}
+
+.latestCard:hover { opacity: 0.8; }
+
+.imgLatestDiv {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+}
+
+.imgLatestDiv img {
+    margin: auto;
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.latestCard:hover .imgLatestDiv img {
+  transform: scale(1.05);
+}
+
+.latestInfo { display: flex; flex-direction: column; gap: 4px; }
+.latestTitle { color: #131212; font-size: 1rem; line-height: 1; font-weight: 600; max-width: 13vw;}
+
+.newsImage .swiper-pagination-bullet {
+  background: #aaa;
+  opacity: 1;
+  width: 8px;
+  height: 8px;
+}
+
+.newsImage .swiper-pagination-bullet-active {
+  background: #e6d624;
+  width: 24px;
+  border-radius: 4px;
+}       

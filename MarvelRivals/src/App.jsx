@@ -4,6 +4,7 @@ import worldLogo from './assets/images/favicons/worldLogo.png'
 import { BrowserRouter, Routes, Route, NavLink, Link } from "react-router-dom";
 import LoginAccountLogo from './assets/images/favicons/LoginAccountLogo.png'
 import Home from './components/Home';
+import { NewsSection } from './components/NewsSec';
 function App() {
 
   return (
@@ -38,6 +39,9 @@ function App() {
 
 <Home/>
 
+
+{/* NewsSection */}
+<NewsSection/>
     </BrowserRouter>
     </>
   );

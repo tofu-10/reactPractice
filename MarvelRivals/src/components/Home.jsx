@@ -19,24 +19,35 @@ export default function Home(){
               preload="auto"
             ></video>
 
-          <div className="homeMarvelLogo">
-            <img src={homeMarvelLogo} alt="" />
-          </div>
-          <article className="slogan">
-            <h3>The super hero Team-based pvp shooter</h3>
-            <h2>all heroes are free to play!</h2>
-          </article>
+            <div className="homeMarvelLogo">
+              <img src={homeMarvelLogo} alt="" />
+            </div>
+            <article className="slogan">
+              <h3>The super hero Team-based pvp shooter</h3>
+              <h2>all heroes are free to play!</h2>
+            </article>
             <button className="PlayNowBtn">Play Now</button>
 
             <div className="platforms">
-                <img className='platform' src={steamIcon} alt="Steam" />
-                <img className='platform WL' src={ps5Icon} alt="PS5" />
-                <img className='platform WL ps4' src={ps4Icon} alt="PS4" />
-                <img className='platform WL' src={xboxSeriesLogo} alt="Xbox Series" />
-                <img className='platform WL' src={epicStore} alt="Epic Store" />
+              <img className="platform" src={steamIcon} alt="Steam" />
+              <img className="platform WL" src={ps5Icon} alt="PS5" />
+              <img className="platform WL ps4" src={ps4Icon} alt="PS4" />
+              <img
+                className="platform WL"
+                src={xboxSeriesLogo}
+                alt="Xbox Series"
+              />
+              <img className="platform WL" src={epicStore} alt="Epic Store" />
             </div>
-          </div>
 
+            <div className="swipe-banner">
+              <span className="swipe-line"></span>
+              <span className="swipe-text">SWIPE TO BROWSE</span>
+              <span className="swipe-line"></span>
+              <div className="swipe-arrow">⌄</div>
+            </div>
+            
+          </div>
         </section>
       </>
     );

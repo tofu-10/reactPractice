@@ -38,7 +38,11 @@
 
 .NavBar {
   display: flex;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
@@ -68,7 +72,7 @@
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    /* font-weight: bolder; */
+  /* font-weight: bolder; */
   text-decoration: none;
   font-size: 0.9rem;
   letter-spacing: 1px;
@@ -85,34 +89,32 @@
   align-items: center;
   gap: 12px;
 }
-.NavRight a{
-     text-align: center;
+.NavRight a {
+  text-align: center;
   color: #ccc;
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    /* font-weight: bold; */
+  /* font-weight: bold; */
   text-decoration: none;
   font-size: 0.9rem;
   /* letter-spacing: 1px; */
   transition: color 0.2s;
 }
 
-.NavLeft a:before{
-    display: inline-block;
-    position: absolute;
-    background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/nav-line_bf543b8f.png);
-    background-size: 100% 100%;
-    content: "";
-    height: 1.4rem;
-    vertical-align: middle;
-    margin-left: -2%;
-    width: 0.3rem;
+.NavLeft a:before {
+  display: inline-block;
+  position: absolute;
+  background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/nav-line_bf543b8f.png);
+  background-size: 100% 100%;
+  content: "";
+  height: 1.4rem;
+  vertical-align: middle;
+  margin-left: -2%;
+  width: 0.3rem;
 }
 
 #navMarvelLogo {
   height: 63px;
   padding: 12px;
 }
-
-
