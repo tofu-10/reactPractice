@@ -47,6 +47,8 @@ function App() {
 {/* S6Featured */}
 
 <S6Featured/>
+
+
     </BrowserRouter>
     </>
   );
