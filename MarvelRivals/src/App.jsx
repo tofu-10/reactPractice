@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, NavLink, Link } from "react-router-dom";
 import LoginAccountLogo from './assets/images/favicons/LoginAccountLogo.png'
 import Home from './components/Home';
 import { NewsSection } from './components/NewsSec';
+import S6Featured from './components/S6Featured';
 function App() {
 
   return (
@@ -42,6 +43,10 @@ function App() {
 
 {/* NewsSection */}
 <NewsSection/>
+
+{/* S6Featured */}
+
+<S6Featured/>
     </BrowserRouter>
     </>
   );
