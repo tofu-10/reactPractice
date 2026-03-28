@@ -6,6 +6,7 @@ import LoginAccountLogo from './assets/images/favicons/LoginAccountLogo.png'
 import Home from './components/Home';
 import { NewsSection } from './components/NewsSec';
 import S6Featured from './components/S6Featured';
+import HeroesInfo from './components/HeroesInfo';
 function App() {
 
   return (
@@ -48,7 +49,9 @@ function App() {
 
 <S6Featured/>
 
+{/* HeroesInfo */}
 
+<HeroesInfo/>
     </BrowserRouter>
     </>
   );

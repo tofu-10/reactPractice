@@ -86,14 +86,16 @@ const latestNews = [
 export function NewsSection() {
   return (
     <div className="newsContainer">
+        
       {/* Top section — swiper + featured news */}
+
       <div className="newsFlexed">
         <div className="newsImage">
           <Swiper
-            modules={[Autoplay, Pagination]} // swap here too
+            modules={[Autoplay, Pagination]} 
             slidesPerView={1}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
-            pagination={{ clickable: true }} // add this
+            pagination={{ clickable: true }} 
             loop
             style={{ width: "100%", height: "100%" }}
           >

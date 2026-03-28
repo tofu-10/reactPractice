@@ -1,0 +1,9 @@
+.heroesInfoContainer{
+    background-image: url(../../assets/images/background/part-news-bg_ac16ec22.png);
+    background-size: cover;
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    margin-top: -2.9%;
+z-index: 2;
+}
