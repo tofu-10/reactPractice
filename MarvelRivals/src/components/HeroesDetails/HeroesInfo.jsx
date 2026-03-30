@@ -1,4 +1,4 @@
-import "./styles/HeroesInfo.css"
+import "../styles/HeroesInfo.css"
 export default function HeroesInfo(){
 
     return<>
