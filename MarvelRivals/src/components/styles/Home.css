@@ -14,15 +14,15 @@
 
 .homeMarvelLogo img {
   position: absolute;
-  top: 26%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 41vh;
+  height: 33%;
 }
 
 .slogan {
   position: absolute;
-  top: 53.5%;
+  top: 49.3%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f9dd3c;
@@ -55,16 +55,16 @@
   text-decoration: none;
   font-family: "Bebas Neue", sans-serif;
   width: 18.7vw;
-  height: 6.2vh;
+  height: 2.8rem;
   font-size: 1.7rem;
   letter-spacing: 1px;
-  top: 68%;
+  top: 61%;
   left: 40.5%;
 }
 
 .platforms {
   position: absolute;
-  top: 82.5%;
+  top: 74.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -102,20 +102,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px 0 14px;
-  gap: 6px;
+  top: 83%;
+  padding: 10px ;
+  gap: 2px;
   width: 100%;
   animation: bounce 1.2s infinite;
 }
 
 .swipe-text {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 2px; */
   color: #fff;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 0.85rem;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 .swipe-line {
@@ -126,6 +127,7 @@
 }
 
 .swipe-arrow {
+  margin-top: -10px;
   color: #f9dd3c;
   font-size: 1.2rem;
 }

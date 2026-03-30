@@ -12,7 +12,7 @@ export default function Home(){
         <section className="homeHero">
           <div className="bgVid-box">
             <video
-              src="https://mrna.fp.ps.easebar.com/file/6969b1e93dae2c6fdf47c05dYJYPSsqe03"
+              src="https://mrna.fp.ps.easebar.com/file/69bd05f0adf12d5b31a7994a5bSwdWfS03"
               autoPlay
               loop
               muted

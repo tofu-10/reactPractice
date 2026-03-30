@@ -10,10 +10,10 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 125vh;
+  height: 115vh;
   position: relative;
   overflow: hidden;
-  margin-top: -2.8%;
+  margin-top: -7.8%;
 
 }
 
@@ -36,7 +36,7 @@
 .s6Container > * {
   position: relative;
   z-index: 1;
-  margin-top: -1.8%;
+  margin-top: -4.8%;
 }
 
 .s6Container p {

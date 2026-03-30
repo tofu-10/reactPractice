@@ -12,10 +12,11 @@
   background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/part-news-bg_ac16ec22.png);
   background-size: cover;
   width: 100%;
-  height: 140vh;
+  height: 105vh;
   position: relative;
-  margin-top: -8.5%;
+  margin-top: -9.5%;
   z-index: 2;
+
 }
 
 /* ---- Top Flexed ---- */
