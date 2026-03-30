@@ -48,19 +48,24 @@
 
 .PlayNowBtn {
   border: none;
+  background-image: url(../../assets/images/background/button.png);
+  background-size: fill;
+  /* background-repeat: no-repeat; */
+  background-position: center;
   box-shadow: 2px 6px 7px rgba(0, 0, 0, 0.563);
   position: absolute;
   background-color: #ffde37;
   color: #12151d;
   text-decoration: none;
   font-family: "Bebas Neue", sans-serif;
+  height: 3rem;
   width: 18.7vw;
-  height: 2.8rem;
   font-size: 1.7rem;
   letter-spacing: 1px;
   top: 61%;
   left: 40.5%;
 }
+
 
 .platforms {
   position: absolute;

@@ -1,4 +1,6 @@
-export default function PartHeroes({Role,heroName,description,heroImage,heroBackground}){
+import '../styles/PartHeroes.css'
+
+export default function PartHeroes({heroHumanName,Role,heroName,description,heroImage,heroBackground}){
     return<>
 
         <div className="heroImg">
