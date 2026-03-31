@@ -1,17 +1,20 @@
 import '../styles/PartHeroes.css'
 
-export default function PartHeroes({heroHumanName,Role,heroName,description,heroImage,heroBackground}){
+export default function PartHeroes({heroHumanName,Role,RoleSymbol,heroName,description,heroImage,heroBackground}){
     return<>
 
-        <div className="heroImg">
-            <img src={heroBackground} alt="" />
-            <img src={heroImage} alt="" />
+
+        <div className="heroImgContainer">
+            <img src={heroBackground} alt="" className='heroBackground'/>
+            <img src={heroImage} alt="" className='heroImage'/>
         </div>
-         <div className="heroInfo">
-            <div className="role">{Role}</div>
+         <div className="heroInfoContainer">
+            <div className="role">
+                <img src={RoleSymbol} alt={`${Role} Picture`} />
+                {Role}</div>
             <div className="heroName">{heroName}</div>
-            <div className="DescriptionName">{heroHumanName}</div>
+            <div className="heroHumanName">{heroHumanName}</div>
             <p className="description">{description}</p>
-        </div>
+</div>
     </>
 }

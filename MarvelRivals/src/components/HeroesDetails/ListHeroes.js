@@ -16,29 +16,34 @@ const heroes = [
     heroHumanName: "Tony Stark",
     role: "Duelist",
     description:
-      "A genius billionaire who built a powerful suit of armor to protect the world. In the Timestream Entanglement, Stark deploys his most advanced Iron Man suit yet — using repulsor technology and flight to dominate the battlefield from above.",
+    "Armed with superior intellect and a nanotech battlesuit of his own design, Tony Stark stands alongside gods as the Invincible Iron Man. His state of the art armor turns any battlefield into his personal playground, allowing him to steal the spotlight he so desperately desires.",
     heroImage: ironmanPicture,
     heroBackground: ironmanlogo,  // your background image
+    rolesymbol: "https://www.marvelrivals.com/pc/gw/20241128194803/img/zy_jdj_0a676db8.png",
   },
   {
     id: "moon-knight",
     heroName: "Moon Knight",
     heroHumanName: "Marc Spector",
     role: "Duelist",
+    
     description:
-      "Avatar of the Egyptian moon god Khonshu, Moon Knight is a ruthless and unpredictable vigilante. He wears white to be seen by his enemies, fighting through pain with reckless disregard. His Crescent Darts bounce between enemies, making him a deadly long-range area specialist.",
+    "Avatar of the Egyptian moon god Khonshu, Moon Knight is a ruthless and unpredictable vigilante. He wears white to be seen by his enemies, fighting through pain with reckless disregard. His Crescent Darts bounce between enemies, making him a deadly long-range area specialist.",
     heroImage: moonknightPicture,
     heroBackground: moonknightlogo,  // your background image
+    rolesymbol: "https://www.marvelrivals.com/pc/gw/20241128194803/img/zy_jdj_0a676db8.png",
   },
   {
     id: "scarlet-witch",
     heroName: "Scarlet Witch",
     heroHumanName: "Wanda Maximoff",
     role: "Duelist",
+    
     description:
-      "Since the Timestream Entanglement, chaos magic is one of the few forces holding the threads of reality together. Should her powers fail, Wanda truly believes this universe will disintegrate — a fate she refuses to allow, no matter the cost.",
+    "Since the Timestream Entanglement, chaos magic is one of the few forces holding the threads of reality together. Should her powers fail, Wanda truly believes this universe will disintegrate — a fate she refuses to allow, no matter the cost.",
     heroImage: scarletwitchPicture,
     heroBackground: scarletwitchlogo,  // your background image
+    rolesymbol: "https://www.marvelrivals.com/pc/gw/20241128194803/img/zy_jdj_0a676db8.png",
   },
   {
     id: "thor",
@@ -46,19 +51,22 @@ const heroes = [
     heroHumanName: "God of Thunder",
     role: "Vanguard",
     description:
-      "The Asgardian god of thunder wields Mjolnir and commands the power of Thorforce. Unlike other Vanguards, Thor pushes enemies back with relentless damage, stacking Thorforce to unlock devastating abilities like the Awakening Rune.",
+    "The Asgardian god of thunder wields Mjolnir and commands the power of Thorforce. Unlike other Vanguards, Thor pushes enemies back with relentless damage, stacking Thorforce to unlock devastating abilities like the Awakening Rune.",
     heroImage: thorPicture,
     heroBackground: thorlogo,  // your background image
+    rolesymbol: "https://www.marvelrivals.com/pc/gw/20241128194803/img/zy_xfz_c18d1719.png",
   },
   {
     id: "spider-man",
     heroName: "Spider-Man",
     heroHumanName: "Peter Parker",
     role: "Duelist",
+    
     description:
-      "The most agile hero in Marvel Rivals. Spider-Man swings freely across the battlefield, shoots Web-Clusters that attach Spider-Tracers to enemies, and hits hard up close. Mastering him is the hardest challenge in the game — but the payoff is unmatched.",
+    "The most agile hero in Marvel Rivals. Spider-Man swings freely across the battlefield, shoots Web-Clusters that attach Spider-Tracers to enemies, and hits hard up close. Mastering him is the hardest challenge in the game — but the payoff is unmatched.",
     heroImage: spidermanPicture,
     heroBackground: spidermanlogo,  // your background image
+    rolesymbol: "https://www.marvelrivals.com/pc/gw/20241128194803/img/zy_jdj_0a676db8.png",
   },
 ];
 

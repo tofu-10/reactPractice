@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('RefrigeratorDeluxe-Light.eot');
+    src: local('Refrigerator Deluxe Light'), local('RefrigeratorDeluxe-Light'),
+        url('RefrigeratorDeluxe-Light.eot?#iefix') format('embedded-opentype'),
+        url('RefrigeratorDeluxe-Light.woff2') format('woff2'),
+        url('RefrigeratorDeluxe-Light.woff') format('woff'),
+        url('RefrigeratorDeluxe-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('RefrigeratorDeluxe-Heavy.eot');
+    src: local('Refrigerator Deluxe Heavy'), local('RefrigeratorDeluxe-Heavy'),
+        url('RefrigeratorDeluxe-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('RefrigeratorDeluxe-Heavy.woff2') format('woff2'),
+        url('RefrigeratorDeluxe-Heavy.woff') format('woff'),
+        url('RefrigeratorDeluxe-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('RefrigeratorDeluxe.eot');
+    src: local('Refrigerator Deluxe'), local('RefrigeratorDeluxe'),
+        url('RefrigeratorDeluxe.eot?#iefix') format('embedded-opentype'),
+        url('RefrigeratorDeluxe.woff2') format('woff2'),
+        url('RefrigeratorDeluxe.woff') format('woff'),
+        url('RefrigeratorDeluxe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Bold'), local('RefrigeratorDeluxe-Bold'),
+        url('RefrigeratorDeluxe-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RefrigeratorDeluxe-Bold.woff2') format('woff2'),
+        url('RefrigeratorDeluxe-Bold.woff') format('woff'),
+        url('RefrigeratorDeluxe-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('RefrigeratorDeluxe-ExtraBold.eot');
+    src: local('Refrigerator Deluxe ExtraBold'), local('RefrigeratorDeluxe-ExtraBold'),
+        url('RefrigeratorDeluxe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RefrigeratorDeluxe-ExtraBold.woff2') format('woff2'),
+        url('RefrigeratorDeluxe-ExtraBold.woff') format('woff'),
+        url('RefrigeratorDeluxe-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+

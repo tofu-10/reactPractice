@@ -1,10 +1,74 @@
 /* The diagonal cut corner effect */
 @font-face {
   font-family: "Refrigerator Deluxe";
-  src: url("../../assets/font/Refrigerator-Deluxe-Bold.otf") format("opentype");
+  src: url("./assets/font/font/Refrigerator-Deluxe-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Light'), local('RefrigeratorDeluxe-Light'),
+        url('./assets/font/font/RefrigeratorDeluxe-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe-Light.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe-Light.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe-Heavy.eot');
+    src: local('Refrigerator Deluxe Heavy'), local('RefrigeratorDeluxe-Heavy'),
+        url('./assets/font/font/RefrigeratorDeluxe-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe-Heavy.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe-Heavy.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe.eot');
+    src: local('Refrigerator Deluxe'), local('RefrigeratorDeluxe'),
+        url('./assets/font/font/RefrigeratorDeluxe.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Bold'), local('RefrigeratorDeluxe-Bold'),
+        url('./assets/font/font/RefrigeratorDeluxe-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe-Bold.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe-Bold.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.eot');
+    src: local('Refrigerator Deluxe ExtraBold'), local('RefrigeratorDeluxe-ExtraBold'),
+        url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
 
 * {
   margin: 0;
@@ -12,13 +76,16 @@
   box-sizing: border-box;
 }
 .download-btn {
+  background-image: url(./assets/images/background/navbarBtn.png);
+  background-size: cover;
   height: fit-content;
   width: 18.5vw;
   position: relative;
   padding: 11px 20px;
-  background: #f9dd3c;
+  background-color: black;
   color: #111;
   font-family: "Refrigerator Deluxe", sans-serif;
+  font-weight: 900;
   font-size: 1.7rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -58,13 +125,16 @@
 }
 
 #langWorldLogo {
-  height: 3.3vh;
+  height: 2.5vh;
   margin-top: 4px;
 }
 
 .loginBox {
   display: flex;
   align-items: center;
+}
+.loginBox img{
+  filter: invert();
 }
 
 .NavLeft {
@@ -77,6 +147,7 @@
   text-align: center;
   color: #ccc;
   font-family:"Refrigerator Deluxe", sans-serif;
+  font-weight: bold;
   text-decoration: none;
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -96,13 +167,9 @@
 .NavRight a {
   text-align: center;
   color: #ccc;
-  font-family:
-    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* font-weight: bold; */
+  font-family: "Refrigerator Deluxe", sans-serif; 
+  font-weight: bold;
   text-decoration: none;
-  font-size: 0.9rem;
-  /* letter-spacing: 1px; */
   transition: color 0.2s;
 }
 

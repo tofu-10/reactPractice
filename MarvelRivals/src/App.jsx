@@ -31,7 +31,7 @@ function App() {
           </div>
           <div className="loginBox">
             <img src={LoginAccountLogo} alt=""  style={{height:'20px', filter: "invert"}}/>
-            <Link to={''} className='logInBtn'>Log In</Link>
+            <Link to={''} className='logInBtn'>LOG IN</Link>
           </div>
           <button className="download-btn">Download</button>
         </div>

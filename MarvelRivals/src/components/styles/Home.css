@@ -1,4 +1,65 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); */
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Light'), local('RefrigeratorDeluxe-Light'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Heavy.eot');
+    src: local('Refrigerator Deluxe Heavy'), local('RefrigeratorDeluxe-Heavy'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe.eot');
+    src: local('Refrigerator Deluxe'), local('RefrigeratorDeluxe'),
+        url('../../assets/font/font/RefrigeratorDeluxe.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Bold'), local('RefrigeratorDeluxe-Bold'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.eot');
+    src: local('Refrigerator Deluxe ExtraBold'), local('RefrigeratorDeluxe-ExtraBold'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
 
 .bgVid-box {
   overflow: hidden;

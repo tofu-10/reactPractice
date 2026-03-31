@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Light'), local('RefrigeratorDeluxe-Light'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Heavy.eot');
+    src: local('Refrigerator Deluxe Heavy'), local('RefrigeratorDeluxe-Heavy'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe.eot');
+    src: local('Refrigerator Deluxe'), local('RefrigeratorDeluxe'),
+        url('../../assets/font/font/RefrigeratorDeluxe.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Bold'), local('RefrigeratorDeluxe-Bold'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.eot');
+    src: local('Refrigerator Deluxe ExtraBold'), local('RefrigeratorDeluxe-ExtraBold'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Refrigerator Deluxe', sans-serif;
+}
+
+.heroImgContainer .heroBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 46rem;
+
+}
+
+
+.heroImgContainer .heroImage{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    height: 46rem;
+    object-fit: contain;
+}
+
+
+.heroInfoContainer{
+    position: relative;
+    width: 36rem;
+    z-index: 2;
+    left: 48.2rem;
+    top: 7rem;
+    padding: 0;
+}
+
+.heroInfoContainer .role{
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* color: #fff; */
+    /* margin-bottom: 10px; */
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.heroInfoContainer .role img{
+    height: 2rem;
+}
+
+.heroInfoContainer .heroName{
+    position: relative;
+    top: -1rem;
+    left: -0.5rem;
+    font-size: 10.3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.heroInfoContainer .heroHumanName{
+    position: relative;
+    z-index: 1;  /* Sits on top of ::before */
+    top: -1.6rem;
+    line-height: 1.5rem;
+    left: -0rem;
+    width: 32rem;
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    padding: 0 1.5rem;
+}
+
+.heroInfoContainer .heroHumanName::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../assets/images/background/nameBadgeBlackBackground.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 12rem;
+    height: 1.5rem;
+
+    top: 0.05rem;
+    left: 0;
+}
+
+
+
+.heroInfoContainer .description{
+    /* font-family: sans-serif; */
+    position: relative;
+    top: -1rem;
+    font-size: 1.1rem;
+    color: rgb(52, 52, 52);
+    width: 32rem;
+    line-height: 1.5;
+
+}
