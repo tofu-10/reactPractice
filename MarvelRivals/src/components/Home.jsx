@@ -26,7 +26,7 @@ export default function Home(){
               <h3>The super hero Team-based pvp shooter</h3>
               <h2>all heroes are free to play!</h2>
             </article>
-            <button className="PlayNowBtn">Play Now</button>
+            <button className="PlayNowBtn">PLAY NOW</button>
 
             <div className="platforms">
               <img className="platform" src={steamIcon} alt="Steam" />
@@ -41,10 +41,10 @@ export default function Home(){
             </div>
 
             <div className="swipe-banner">
-              <span className="swipe-line"></span>
-              <span className="swipe-text">SWIPE TO BROWSE</span>
-              <span className="swipe-line"></span>
-              <div className="swipe-arrow">⌄</div>
+              {/* <span className="swipe-line"></span> */}
+              <span className="swipe-img"></span>
+              {/* <span className="swipe-line"></span> */}
+              {/* <div className="swipe-arrow">⌄</div> */}
             </div>
             
           </div>

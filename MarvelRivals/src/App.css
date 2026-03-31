@@ -74,6 +74,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Refrigerator Deluxe', sans-serif;
 }
 .download-btn {
   background-image: url(./assets/images/background/navbarBtn.png);
@@ -96,8 +97,7 @@
 }
 
 .download-btn:hover {
-  background: #ff3b41;
-  box-shadow: 0 0 20px rgba(230, 36, 41, 0.5);
+ 
 }
 .download-btn::before {
   content: "";
