@@ -1,3 +1,50 @@
 .footerContainer{
-    background-color: black;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    height: 9.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footerInlineContainer .footerLogos{
+height: 2.5rem;
+
+}
+
+.footerInlineContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 2rem;
+}
+
+.footerInlineContainer .footerText{
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+}
+
+ .Policies{
+    font-size: 0.6rem;
+    display: flex;
+    gap: .8rem;
+    letter-spacing: .1rem;
+    
+    cursor: pointer;
+}
+
+.Policies a{
+    text-decoration: underline;
+    color: white;
+}
+
+.esrbLogo{
+    height: 3rem;
+    position: relative;
+    left: 31rem;
+    top: 4rem;
 }

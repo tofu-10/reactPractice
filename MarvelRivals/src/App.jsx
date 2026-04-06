@@ -7,6 +7,7 @@ import Home from './components/Home';
 import { NewsSection } from './components/NewsSec';
 import S6Featured from './components/S6Featured';
 import HeroesInfo from './components/HeroesDetails/HeroesInfo';
+import Footer from './components/Footer';
 function App() {
 
   return (
@@ -23,7 +24,6 @@ function App() {
           <Link to={''}>EVENT</Link>
           <Link to={''}>MEDIA</Link>
           <Link to={''}>PARTNERS</Link>
-          <Link to={''}>ESPORTS</Link>
         </div>
         <div className="NavRight">
           <div className="language">
@@ -52,6 +52,13 @@ function App() {
 {/* HeroesInfo */}
 
 <HeroesInfo/>
+
+{/* footer */}
+
+<Footer/>
+
+
+
     </BrowserRouter>
     </>
   );

@@ -137,6 +137,16 @@
   filter: invert();
 }
 
+.loginBox:hover{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#langWorldLogo:hover{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
 .NavLeft {
   gap: 20px;
   display: flex;
