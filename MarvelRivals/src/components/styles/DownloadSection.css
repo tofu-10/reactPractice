@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Light'), local('RefrigeratorDeluxe-Light'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Heavy.eot');
+    src: local('Refrigerator Deluxe Heavy'), local('RefrigeratorDeluxe-Heavy'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe.eot');
+    src: local('Refrigerator Deluxe'), local('RefrigeratorDeluxe'),
+        url('../../assets/font/font/RefrigeratorDeluxe.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Bold'), local('RefrigeratorDeluxe-Bold'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.eot');
+    src: local('Refrigerator Deluxe ExtraBold'), local('RefrigeratorDeluxe-ExtraBold'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.woff2') format('woff2'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.woff') format('woff'),
+        url('../../assets/font/font/RefrigeratorDeluxe-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+.downloadSectionContainter{
+    background-image: url(../../assets/images/background/downloadSection/background.jpg);
+    background-size:cover;
+    background-position: center;
+    gap: 3rem;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 96.3rem;
+    height: 100vh;
+        font-family: 'Refrigerator Deluxe', sans-serif;
+    font-weight: bold;
+    color: rgb(238, 242, 245);
+ 
+}
+.dwnldSlogan img{
+    height: 15rem;
+}
+
+.dwnldPlatforms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
+    width: 70rem;
+}
+
+.dwnldPs5,.dwnldPs4,.dwnldSteam,.dwnldXbox,.dwnldNetease,.dwnldEpic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.dwnldPs5 img,.dwnldPs4 img,.dwnldSteam img,.dwnldXbox img,.dwnldNetease img,.dwnldEpic img{
+height: 4.2rem;
+}
+
+.dwnldPs5,.dwnldPs4 ,.dwnldSteam ,.dwnldXbox,.dwnldNetease,.dwnldEpic{
+text-decoration: none;
+color: aliceblue;
+}
+
+
+.dwnldCloseCross{
+    background-image: url(../../assets/images/favicons/Cross.png);
+    background-size: cover;
+    position: absolute;
+    top: 4.5rem;
+    right: 2.7rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.dwnldCloseCross:hover{
+    cursor: pointer;
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+body.download-open {
+    overflow: hidden;
+}
+

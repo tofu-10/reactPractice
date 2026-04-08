@@ -8,8 +8,16 @@ import { NewsSection } from './components/NewsSec';
 import S6Featured from './components/S6Featured';
 import HeroesInfo from './components/HeroesDetails/HeroesInfo';
 import Footer from './components/Footer';
+import { DownloadSection } from './components/DownloadSection';
+import { useState } from 'react';
 function App() {
 
+const [isDwnldSecVisible, setisDwnldSecVisible]=useState(false);
+
+
+  function handleDownloadClick() {
+    setisDwnldSecVisible(!isDwnldSecVisible);
+  }
   return (
     <>
 
@@ -33,7 +41,7 @@ function App() {
             <img src={LoginAccountLogo} alt=""  style={{height:'20px', filter: "invert"}}/>
             <Link to={''} className='logInBtn'>LOG IN</Link>
           </div>
-          <button className="download-btn">Download</button>
+          <button className="download-btn" onClick={handleDownloadClick}>Download</button>
         </div>
       </div>
 
@@ -41,7 +49,11 @@ function App() {
 
 <Home/>
 
-
+{isDwnldSecVisible && 
+<div style={{zIndex:"1000", position:"fixed",top: '0', left:'0'}}>
+  <DownloadSection handleDownloadClick={handleDownloadClick}/>
+  </div>
+  }
 {/* NewsSection */}
 <NewsSection/>
 
