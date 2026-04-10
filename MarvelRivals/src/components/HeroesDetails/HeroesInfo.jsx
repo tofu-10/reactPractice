@@ -1,12 +1,12 @@
 import "../styles/HeroesInfo.css"
 import PartHeroes from "./PartHeroes"
 import heroes from "./ListHeroes"
-import { useEffect, useRef, useState } from "react"
+import { useState } from "react"
 
 export default function HeroesInfo(){
     const [reference, setReference] = useState(0);
 
-    function +handleHeroInfoClick(key){
+    function handleHeroInfoClick(key){
         setReference(key);
 
     }

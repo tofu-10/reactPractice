@@ -3,4 +3,46 @@ background-image: url(../../assets/images/background/PartnersSection/background.
 background-size: cover;
 background-position: center;
 height: 55rem;
+padding: 6rem 14rem;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+
+
+
+.PartnerTitle{
+        font-weight: 900;
+        font-size: 7.4rem;
+        text-transform: uppercase;
+        line-height: 6rem;
+        
+}
+
+.joinText{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.joinInfo{
+    line-height: 1.4rem;
+    color: rgba(81, 81, 81, 0.86);
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 61%;
+}
+
+.PartnerContainer a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3.2rem;
+    text-align: center;    
+    width:14rem;
+    height: 4rem;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/images/background/button.png);
+    background-size: cover;
 }
