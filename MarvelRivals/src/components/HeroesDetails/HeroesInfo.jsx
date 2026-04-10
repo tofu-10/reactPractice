@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react"
 export default function HeroesInfo(){
     const [reference, setReference] = useState(0);
 
-    function handleHeroInfoClick(key){
+    function +handleHeroInfoClick(key){
         setReference(key);
 
     }

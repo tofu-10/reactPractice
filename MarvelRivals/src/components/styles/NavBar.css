@@ -1,0 +1,201 @@
+/* The diagonal cut corner effect */
+@font-face {
+  font-family: "Refrigerator Deluxe";
+  src: url("./assets/font/font/Refrigerator-Deluxe-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Light'), local('RefrigeratorDeluxe-Light'),
+        url('./assets/font/font/RefrigeratorDeluxe-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe-Light.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe-Light.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe-Heavy.eot');
+    src: local('Refrigerator Deluxe Heavy'), local('RefrigeratorDeluxe-Heavy'),
+        url('./assets/font/font/RefrigeratorDeluxe-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe-Heavy.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe-Heavy.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe.eot');
+    src: local('Refrigerator Deluxe'), local('RefrigeratorDeluxe'),
+        url('./assets/font/font/RefrigeratorDeluxe.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe-Bold.eot');
+    src: local('Refrigerator Deluxe Bold'), local('RefrigeratorDeluxe-Bold'),
+        url('./assets/font/font/RefrigeratorDeluxe-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe-Bold.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe-Bold.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Refrigerator Deluxe';
+    src: url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.eot');
+    src: local('Refrigerator Deluxe ExtraBold'), local('RefrigeratorDeluxe-ExtraBold'),
+        url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.woff2') format('woff2'),
+        url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.woff') format('woff'),
+        url('./assets/font/font/RefrigeratorDeluxe-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Refrigerator Deluxe', sans-serif;
+}
+.download-btn {
+  background-image: url(../../assets/images/background/navbarBtn.png);
+  background-size: cover;
+  height: fit-content;
+  width: 18.5vw;
+  position: relative;
+  padding: 11px 20px;
+  background-color: black;
+  color: #111;
+  font-family: "Refrigerator Deluxe", sans-serif;
+  font-weight: 900;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  clip-path: polygon(12px 0%, 100% 0%, 100% 100%, 0% 100%);
+  transition: all 0.2s;
+}
+
+.download-btn:hover {
+ 
+}
+.download-btn::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 0;
+  width: 28px;
+  height: 100%;
+  background: #111;
+  clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+}
+
+.NavBar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #111;
+  height: 53px;
+}
+
+#langWorldLogo {
+  height: 2.5vh;
+  margin-top: 4px;
+}
+
+.loginBox {
+  display: flex;
+  align-items: center;
+}
+.loginBox img{
+  filter: invert();
+}
+
+.loginBox:hover{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#langWorldLogo:hover{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+.NavLeft {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.NavLeft a {
+  text-align: center;
+  color: #ccc;
+  font-family:"Refrigerator Deluxe", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+  width: 100px;
+}
+
+.NavLeft a:hover {
+  color: #f9dd3c;
+}
+
+.NavRight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.NavRight a {
+  text-align: center;
+  color: #ccc;
+  font-family: "Refrigerator Deluxe", sans-serif; 
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.NavLeft a:before {
+  display: inline-block;
+  position: absolute;
+  background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/nav-line_bf543b8f.png);
+  background-size: 100% 100%;
+  content: "";
+  height: 1.4rem;
+  vertical-align: middle;
+  margin-left: -2%;
+  width: 0.3rem;
+}
+
+#navMarvelLogo {
+  height: 63px;
+  padding: 12px;
+}

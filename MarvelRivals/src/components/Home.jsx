@@ -5,10 +5,12 @@ import ps4Icon from '../assets/images/platforms/ps4Icon.png'
 import ps5Icon from '../assets/images/platforms/ps5Icon.png'
 import steamIcon from '../assets/images/platforms/steamIcon.png'
 import xboxSeriesLogo from '../assets/images/platforms/xboxSeriesLogo.png'
+import NavBar from './NavBar'
 export default function Home(){
  
     return (
       <>
+
         <section className="homeHero">
           <div className="bgVid-box">
             <video
@@ -41,10 +43,7 @@ export default function Home(){
             </div>
 
             <div className="swipe-banner">
-              {/* <span className="swipe-line"></span> */}
               <span className="swipe-img"></span>
-              {/* <span className="swipe-line"></span> */}
-              {/* <div className="swipe-arrow">⌄</div> */}
             </div>
             
           </div>
