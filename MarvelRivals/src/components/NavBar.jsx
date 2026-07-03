@@ -10,16 +10,20 @@ function NavBar() {
     function handleDownloadClick() {
         setisDwnldSecVisible(!isDwnldSecVisible);
     }
+    
+    function handleHeroClick() {
+        const heroesSection = document.getElementById('heroesInfoSection');
+        heroesSection?.scrollIntoView({ behavior: 'smooth' });
+    }
   return (
     <div>
       
         <div className="NavBar">
         <div className="NavLeft">
           <img src={marvelLogo} alt="" id="navMarvelLogo"/>
-          <Link to={''}>NEWS</Link>
+          <Link to={''}>HOME</Link>
           <Link to={''}>GAME INFO</Link>
-          <Link to={''}>HERO </Link>
-          <Link to={''}>EVENT</Link>
+          <button onClick={handleHeroClick} className="hero-btn">HERO</button>
           <Link to={''}>MEDIA</Link>
           <Link to={'./partner'}>PARTNERS</Link>
         </div>
@@ -29,7 +33,7 @@ function NavBar() {
           </div>
           <div className="loginBox">
             <img src={LoginAccountLogo} alt=""  style={{height:'20px', filter: "invert"}}/>
-            <Link to={''} className='logInBtn'>LOG IN</Link>
+            <button  className='logInBtn'>LOG IN</button>
           </div>
           <button className="download-btn" onClick={handleDownloadClick}>Download</button>
         </div>

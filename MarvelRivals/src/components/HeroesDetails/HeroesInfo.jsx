@@ -14,7 +14,7 @@ export default function HeroesInfo(){
     console.log(reference);
 
     return <>
-        <div className="heroesInfoContainer">
+        <div className="heroesInfoContainer" id="heroesInfoSection">
             <PartHeroes 
                 RoleSymbol={heroes[reference].rolesymbol} 
                 Role={heroes[reference].role} 

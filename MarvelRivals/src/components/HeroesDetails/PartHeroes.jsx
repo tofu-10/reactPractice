@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import '../styles/PartHeroes.css'
 
 export default function PartHeroes({heroHumanName,Role,RoleSymbol,heroName,description,heroImage,heroBackground}){

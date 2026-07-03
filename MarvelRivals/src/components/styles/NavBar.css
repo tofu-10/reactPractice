@@ -195,6 +195,38 @@
   width: 0.3rem;
 }
 
+.hero-btn {
+  text-align: center;
+  color: #ccc;
+  font-family: "Refrigerator Deluxe", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+  width: 100px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hero-btn:before {
+  display: inline-block;
+  position: absolute;
+  background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/nav-line_bf543b8f.png);
+  background-size: 100% 100%;
+  content: "";
+  height: 1.4rem;
+  vertical-align: middle;
+  margin-left: -2%;
+  width: 0.3rem;
+}
+
+.hero-btn:hover {
+  color: #f9dd3c;
+
+}
+
 #navMarvelLogo {
   height: 63px;
   padding: 12px;
